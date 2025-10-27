@@ -26,8 +26,8 @@
     <!-- USING A "PARTIAL" instead of hardcoding above code-->
     <%- include('./partials/nav.ejs') %>
 
-    <div class="information content">
-      <h2>New Information</h2>
+    <div class="information">
+      <h2>News Snapshot</h2>
       <% if (information.length > 0) { %> <% information.forEach(info => { %>
       <h3 class="title"><%= info.title %></h3>
       <p class="snippet"><%= info.snippet %></p>

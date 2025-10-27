@@ -32,9 +32,9 @@ app.use(morgan('dev'));
 
 app.get("/", (req, res) => {
 const information = [
-  { title: "First", snippet: "First info is this." },
-  { title: "Second", snippet: "Second info is this." },
-  { title: "Third", snippet: "Third info is this." },
+  { title: "New Star Wars Movie?", snippet: "Not so veiled hints from a prominent director..." },
+  { title: "Real Life Zombie!", snippet: "The first documented case of the undead..." },
+  { title: "10 Odd Uses for Oatmeal", snippet: "Don't judge us, you need to know this..." },
 ];
   //   res.sendFile("./views/index.html", { root: __dirname });
   // NOTE - when using ejs, you need to render a view
