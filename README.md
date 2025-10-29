@@ -1,0 +1,1 @@
+This project was supposed to be bare-bones Node.js, but I jumped ahead and used Express, ejs, dotenv, and Morgan. See the app.js file. The original Node.js code is commented out in the server.js file.
